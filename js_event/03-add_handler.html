@@ -1,0 +1,12 @@
+<input id="elem" type="button" value="Click me">
+<script>
+    function handler1() {
+        alert('Thanks 1');
+    }
+    function handler2() {
+        alert('Thanks 2');
+    }
+    elem.onclick=function() {alert('Hello')}
+    elem.addEventListener('click',handler1);
+    elem.addEventListener('click',handler2);
+</script>

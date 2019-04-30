@@ -1,0 +1,8 @@
+Common Event
+    Event
+        onchange
+        onclick
+        onmouseover
+        onmouseout
+        onkeydown
+        onload

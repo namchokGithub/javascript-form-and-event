@@ -1,0 +1,9 @@
+<form name="my">
+    <input name="one" value="10" onchange="console.log(this.value);">
+    <input name="two" value="2">
+</form>
+<script>
+    let form = document.forms.my
+    let elem = form.elements.one
+    console.log(elem.value)
+</script>
